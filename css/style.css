@@ -368,7 +368,7 @@ box-shadow:         1px 1px 1px rgba(50, 50, 50, 0.1);
 /* footer
 /*-------------------------------------------------- */
 footer{
-	background:#58453F;
+	background:#8f8f8f;
 	color:#fff;
 	padding:20px 0 20px 0;
 }
@@ -383,7 +383,7 @@ footer h3{font-size:20px;}
 /*-------------------------------------------------- */
 .subfooter{
 	margin:40px 0 -20px 0;
-	background:#665048;
+	background:#696969;
 	padding:20px 0 20px 0;
 }
 .subfooter ul{
@@ -610,6 +610,9 @@ blockquote span{
 #gallery .item h4{
 	font-size:16px;
 	margin-bottom:0;
+}
+.gallery {
+	margin-bottom: 20px;
 }
 
 /* -------------------------------------------------- 

@@ -64,9 +64,9 @@
         	<ul class="rslides pic_slider">
              	<li>
                		<img src="img/slider-home/home1n.jpg" alt="">
-                	<div class="slider-info">
+                	<!--<div class="slider-info">
                 		<h1>Hua Hin</h1>
-                	</div>
+                	</div>-->
                 </li>  
                 <li>
                		<img src="img/slider-home/s1n.jpg" alt="">
@@ -140,7 +140,7 @@
 			<div class="row">
             	<div class="text-center">
                     <h2>Rooms & Rates</h2>
-                    Find your favorite room, feel more than home<br><br>
+                    Villa-S-Huahin consist of 2 private Pool Villas.<br><br>
      			 </div>
                 
                 <!-- room -->
@@ -173,7 +173,10 @@
            	    	<img data-original="img/s1_thump.jpg" src="img/pic-blank-1.gif" alt="">
                     <h4>S1 Room</h4>
                     <div class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    The design concept of this Pool Villa is simple and elegance. 
+					Great for Family Re-Unions, friends get together or company retreat. 
+					4 Bed-Rooms, 4 Bath-Rooms, 1 Private Pool & Jacuzzi, 1 Kitchen,1 Open Air Living Room, 1 In-door Living-Room.  
+					Room rate: 17,000 Baht / Night
                 	</div>
                     <div class="row" style="display:none;">
                             <ul class="room-features">
@@ -195,7 +198,10 @@
            	    	<img data-original="img/s2_thump.jpg" src="img/pic-blank-1.gif" alt="">
                     <h4>S2 Room</h4>
                     <div class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    The design concept of this Pool Villa is fun and lively. 
+					Great for Family Re-Unions, friends get together or company retreat. 
+					4 Bed-Rooms, 4 Bath-Rooms, 1 Private Pool & Jacuzzi, 1 Kitchen,1 Open Air Living Room, 1 In-door Living-Room.  
+					Room rate: 17,000 Baht / Night
                 	</div>
                     <div class="row">
                             <ul class="room-features" style="display:none;">
@@ -216,8 +222,12 @@
              
              <!--facilities-->
              <?php
-             	$arr_fac_img = array("wifi","tv","hair_dryer","coffee","dvd","house_keeping","Safe","bathroom","bbq","nopetnosmoking","ipod_desk","villa_pool");
-				$arr_fac = array("Wifi","32 LED TV","Hair dryer","Complimontar <br>Coffee Tray","DVD Player","Daily House Keeping","Safe","Bathroom","BBQ Grill","Non smoking <br>Non pet facilities","Ipod desk","Pool villa");
+             	$arr_fac_img = array("wifi","tv","hair_dryer","coffee",
+             						 "dvd","house_keeping","Safe","bathroom",
+             						 "bbq","nopetnosmoking","ipod_desk","villa_pool");
+				$arr_fac = array("Wifi","32 LED TV","Hair dryer","Complimontar <br>Coffee Tray",
+				                 "DVD Player","Daily House Keeping","Safe","Bathroom",
+				                 "BBQ Grill","Non smoking <br>Non pet facilities","Ipod desk","Pool villa");
              	$count = 0;
              ?>
              <div id="facilities">
@@ -239,81 +249,137 @@
 	         <?php } ?>
 	         </div>
              <!--close facilities-->
+             
              <hr>
              
+             <!--S1 Gallery-->
+             <?php $count=0;?>
              <div class="row gallery">
              	<div class="text-center">
-                    <h2>Hotel Gallery</h2>
+                    <h2>Villa-S1 Gallery</h2>
                     Find your favorite room, feel more than home<br><br>
    			   </div>
-                 
+   			   
+               <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
                  <div class="span2">
-           	     	<a class="preview" href="img/gallery/pic%20(1).jpg" rel="prettyPhoto" title="Your Title">
-           	     	<img data-original="img/gallery/pic%20(1).jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
+           	     	<a class="preview" href="img/gallery/s1/original/s1_<?php echo $count?>.jpg" rel="prettyPhoto" title="Your Title">
+           	     	<img data-original="img/gallery/s1/original/s1_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
                     </a>
                  </div>
-                 
-                 <div class="span2">
-           	     	<a class="preview" href="img/gallery/pic%20(1).jpg" rel="prettyPhoto" title="Your Title">
-           	     	<img data-original="img/gallery/pic%20(2).jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
-                    </a>
-                 </div>
-                 
-                 <div class="span2">
-           	     	<a class="preview" href="img/gallery/pic%20(1).jpg" rel="prettyPhoto" title="Your Title">
-           	     	<img data-original="img/gallery/pic%20(3).jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
-                    </a>
-                 </div>
-                 
-                 <div class="span2">
-           	     	<a class="preview" href="img/gallery/pic%20(1).jpg" rel="prettyPhoto" title="Your Title">
-           	     	<img data-original="img/gallery/pic%20(4).jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
-                    </a>
-                 </div>
-                 
-                 <div class="span2">
-           	     	<a class="preview" href="img/gallery/pic%20(1).jpg" rel="prettyPhoto" title="Your Title">
-           	     	<img data-original="img/gallery/pic%20(5).jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
-                    </a>
-                 </div>
-                 
-                 <div class="span2">
-           	     	<a class="preview" href="img/gallery/pic%20(1).jpg" rel="prettyPhoto" title="Your Title">
-           	     	<img data-original="img/gallery/pic%20(6).jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
-                    </a>
-                 </div>
+               <?php $count++;}?>
                  
              </div>
-            
+             <div class="row gallery">
+               <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
+                 <div class="span2">
+           	     	<a class="preview" href="img/gallery/s1/original/s1_<?php echo $count?>.jpg" rel="prettyPhoto" title="Your Title">
+           	     	<img data-original="img/gallery/s1/original/s1_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
+                    </a>
+                 </div>
+               <?php $count++;}?>
+                 
+             </div>
+             <div class="row gallery">
+               <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
+                 <div class="span2">
+           	     	<a class="preview" href="img/gallery/s1/original/s1_<?php echo $count?>.jpg" rel="prettyPhoto" title="Your Title">
+           	     	<img data-original="img/gallery/s1/original/s1_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
+                    </a>
+                 </div>
+               <?php $count++;}?>
+                 
+             </div>
+             <div class="row gallery">	   
+               <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
+                 <div class="span2">
+           	     	<a class="preview" href="img/gallery/s1/original/s1_<?php echo $count?>.jpg" rel="prettyPhoto" title="Your Title">
+           	     	<img data-original="img/gallery/s1/original/s1_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
+                    </a>
+                 </div>
+               <?php $count++;}?>
+                 
+             </div>
+             <!--S1 Gallery-->
+             
+             <hr>
+             
+             <!--S2 Gallery-->
+             <?php $count=0;?>
+             <div class="row gallery">
+             	<div class="text-center">
+                    <h2>Villa-S2 Gallery</h2>
+                    Find your favorite room, feel more than home<br><br>
+   			   </div>
+   			   
+               <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
+                 <div class="span2">
+           	     	<a class="preview" href="img/gallery/s1/original/s1_<?php echo $count?>.jpg" rel="prettyPhoto" title="Your Title">
+           	     	<img data-original="img/gallery/s1/original/s1_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
+                    </a>
+                 </div>
+               <?php $count++;}?>
+                 
+             </div>
+             <div class="row gallery">
+               <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
+                 <div class="span2">
+           	     	<a class="preview" href="img/gallery/s1/original/s1_<?php echo $count?>.jpg" rel="prettyPhoto" title="Your Title">
+           	     	<img data-original="img/gallery/s1/original/s1_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
+                    </a>
+                 </div>
+               <?php $count++;}?>
+                 
+             </div>
+             <div class="row gallery">
+               <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
+                 <div class="span2">
+           	     	<a class="preview" href="img/gallery/s1/original/s1_<?php echo $count?>.jpg" rel="prettyPhoto" title="Your Title">
+           	     	<img data-original="img/gallery/s1/original/s1_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
+                    </a>
+                 </div>
+               <?php $count++;}?>
+                 
+             </div>
+             <div class="row gallery">	   
+               <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
+                 <div class="span2">
+           	     	<a class="preview" href="img/gallery/s1/original/s1_<?php echo $count?>.jpg" rel="prettyPhoto" title="Your Title">
+           	     	<img data-original="img/gallery/s1/original/s1_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
+                    </a>
+                 </div>
+               <?php $count++;}?>
+                 
+             </div>
+             <!--S2 Gallery-->
+             
             <hr>
-            
-            <div class="row">
-           	  <div class="span3 feature">
-              	<i class="icon-desktop icon-3x"></i><br>
-                <h4>Modern</h4>
-                	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </div>
-                
-              <div class="span3 feature">
-              	<i class="icon-calendar icon-3x"></i><br>
-              	<h4>Responsive</h4>
-                	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </div>
-              
-              <div class="span3 feature">
-              	<i class="icon-circle-arrow-right icon-3x"></i><br>
-              	<h4>Hotel</h4>
-                	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </div>
-              
-              <div class="span3 feature">
-              	<i class="icon-thumbs-up icon-3x"></i><br>
-              	<h4>Template</h4>
-                	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </div>
-            </div>
              
-             
+             <!--Activities-->
+             <?php
+             	$arr_ac_img = array("horse_riding","water_sport","bbq_party","golf");
+				$arr_ac = array("Horse Riding","Water Sport","BBQ Party","Golf");
+             ?>
+             <div id="activities">
+             	 <div class="text-center">
+	                  <h2>Activities</h2>
+	                  Find your favorite room, feel more than home<br><br>
+	   			 </div>
+	            <div class="row">
+		           	  <div class="span2 offset1 feature">
+		              	<i class="icon-3x"><img data-original="img/activities/Cycling.png" src="img/pic-blank-1.gif" alt=""></i><br>
+		                <h4>Modern</h4>	              
+		              </div>
+		        
+		        <?php for($m = 0 ; $m < 4 ; $m++){ ?>  
+		              <div class="span2 feature">
+		              	<i class="icon-3x"><img data-original="img/activities/<?php echo $arr_ac_img[$m];?>.png" src="img/pic-blank-1.gif" alt=""></i><br>
+		              	<h4><?php echo $arr_ac[$m];?></h4>
+		                	
+		              </div>
+		        <?php }?>      
+		      
+	            </div>
+             </div>
             </div>
         
         </div>
@@ -371,7 +437,7 @@
                 	<div class="span6">
                     	&copy; Copyiright 2013 - Sunshine by Aveothemes
                     </div>
-                    <div class="span6">
+                    <div class="span6" style="display:none">
                     	<nav>
                           <ul>
                               <li><a href="#">Home</a></li>
