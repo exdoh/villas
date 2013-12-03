@@ -38,7 +38,7 @@
 	<header>
         	<div id="logo">
             	<div class="inner">
-   	    		  <a href="index.html"><img src="img/logo4.png" alt=""></a>
+   	    		  <a href="index.html"><img src="img/logo6Trans.png" alt=""></a>
             	</div>
             </div>
             
@@ -64,9 +64,9 @@
         	<ul class="rslides pic_slider">
              	<li>
                		<img src="img/slider-home/home1n.jpg" alt="">
-                	<!--<div class="slider-info">
-                		<h1></h1>
-                	</div>-->
+                	<div class="slider-info">
+                		<h1>Hua Hin</h1>
+                	</div>
                 </li>  
                 <li>
                		<img src="img/slider-home/s1n.jpg" alt="">
@@ -170,7 +170,7 @@
                     <div class="btn-book-container" style="display:none;">
                     	<a href="#" class="btn-book">Book Now</a>
                     </div>
-           	    	<img data-original="img/s1_thump.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
+           	    	<img data-original="img/s1_thump.jpg" src="img/pic-blank-1.gif" alt="">
                     <h4>S1 Room</h4>
                     <div class="description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -192,7 +192,7 @@
                     <div class="btn-book-container" style="display:none;">
                     	<a href="#" class="btn-book">Book Now</a>
                     </div>
-           	    	<img data-original="img/s2_thump.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
+           	    	<img data-original="img/s2_thump.jpg" src="img/pic-blank-1.gif" alt="">
                     <h4>S2 Room</h4>
                     <div class="description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -214,37 +214,31 @@
              
              <hr>
              
+             <!--facilities-->
+             <?php
+             	$arr_fac_img = array("wifi","tv","hair_dryer","coffee","dvd","house_keeping","Safe","bathroom","bbq","nopetnosmoking","ipod_desk","villa_pool");
+				$arr_fac = array("Wifi","32 LED TV","Hair dryer","Complimontar <br>Coffee Tray","DVD Player","Daily House Keeping","Safe","Bathroom","BBQ Grill","Non smoking <br>Non pet facilities","Ipod desk","Pool villa");
+             	$count = 0;
+             ?>
              <div id="facilities">
              	 <div class="text-center">
 	                  <h2>Facilities</h2>
 	                  Find your favorite room, feel more than home<br><br>
 	   			 </div>
+	   	     <?php for($i = 0 ; $i < 3 ; $i++){ ?>
 	             <div class="row">
+	             <?php for($m = 0 ; $m < 4 ; $m++){ ?>
 		           	  <div class="span3 feature">
-		              	<i class="icon-desktop icon-3x"></i><br>
-		                <h4>Modern</h4>
+		              	<i class="icon-3x"><img data-original="img/facilities/<?php echo $arr_fac_img[$count];?>.png" src="img/pic-blank-1.gif" alt=""></i>
+		              	<br>
+		                <h4><?php echo $arr_fac[$count]?></h4>
 		             	
 		              </div>
-		                
-		              <div class="span3 feature">
-		              	<i class="icon-calendar icon-3x"></i><br>
-		              	<h4>Responsive</h4>
-		                	
-		              </div>
-		              
-		              <div class="span3 feature">
-		              	<i class="icon-circle-arrow-right icon-3x"></i><br>
-		              	<h4>Hotel</h4>
-		                	
-		              </div>
-		              
-		              <div class="span3 feature">
-		              	<i class="icon-thumbs-up icon-3x"></i><br>
-		              	<h4>Template</h4>
-		              </div>
+		         <?php $count++; }?>      
 	            </div>
+	         <?php } ?>
 	         </div>
-            
+             <!--close facilities-->
              <hr>
              
              <div class="row gallery">
