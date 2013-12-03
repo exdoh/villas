@@ -47,12 +47,12 @@
             <!-- mainmenu begin -->
             <div id="mainmenu-container">           
 				<ul id="mainmenu">
-                  <li><a href="index.php">HOME</a></li>
-                  <li><a href="#">ROOM & RATES</a></li>
-                  <li><a href="#">Accomodation & Room Facillties</a></li>
-                  <li><a href="#">Gallery</a></li>
-                  <li><a href="#">Activities</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li onclick="scrolltodiv('logo')"><a href="#">HOME</a></li>
+                  <li onclick="scrolltodiv('roomrate')"><a href="#">ROOM & RATES</a></li>
+                  <li onclick="scrolltodiv('facilities')"><a href="#">Room Facillties</a></li>
+                  <li onclick="scrolltodiv('gall')"><a href="#">Gallery</a></li>
+                  <li onclick="scrolltodiv('activities')"><a href="#">Activities</a></li>
+                  <li onclick="scrolltodiv('footer')"><a href="#">Contact Us</a></li>
               	</ul>
     		</div>
 
@@ -138,7 +138,7 @@
     <div id="content">
     	<div class="container">
         	
-			<div class="row">
+			<div id="roomrate" class="row">
             	<div class="text-center">
                     <h2>Rooms & Rates</h2>
                     Villa-S-Huahin consist of 2 private Pool Villas.<br><br>
@@ -255,7 +255,7 @@
              
              <!--S1 Gallery-->
              <?php $count=0;?>
-             <div class="row gallery">
+             <div id="gall" class="row gallery">
              	<div class="text-center">
                     <h2>Villa-S1 Gallery</h2>
                     Find your favorite room, feel more than home<br><br>
@@ -388,7 +388,7 @@
     
     <!-- footer begin -->
 	<footer>
-  		<div class="container">
+  		<div id="footer" class="container">
    	  		<div class="row">
                 <div class="span6 gallery">
                 	<a class="preview" href="img/map.jpg" rel="prettyPhoto" title="Your Title">
@@ -445,6 +445,16 @@
         
    	</footer>
 	<!-- footer close -->
-   
+    
+    <script type="text/javascript">
+		 	function scrolltodiv (name) {
+			    $('html,body').animate({
+			    	scrollTop: $("#"+name).offset().top-20},
+			    2000);
+			}
+			
+			
+		 	
+	</script>
 </body>
 </html>
