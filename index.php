@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Sunshine - Responsive Hotel Template</title>
+    <title>Villa S Hua Hin</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
     <meta name="author" content="">
@@ -38,7 +38,7 @@
 	<header>
         	<div id="logo">
             	<div class="inner">
-   	    		  <a href="index.html"><img src="img/logo.png" alt=""></a>
+   	    		  <a href="index.html"><img src="img/logo4.png" alt=""></a>
             	</div>
             </div>
             
@@ -46,23 +46,12 @@
             <!-- mainmenu begin -->
             <div id="mainmenu-container">           
 				<ul id="mainmenu">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="#">ROOM</a>
-                  	<ul>
-                    	<li><a href="room-list.html">Room List</a>
-                        <li><a href="room-details.html">Room Details</a>
-                    </ul>
-                  </li>
-                  <li><a href="booking.html">Booking</a></li>
-                  <li><a href="#">News</a>
-                  	<ul>
-                    	<li><a href="news.html">News List</a></li>
-                    	<li><a href="single-news.html">Single News</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="fullwidth.html">Fullwidth</a></li>
+                  <li><a href="index.php">HOME</a></li>
+                  <li><a href="#">ROOM & RATES</a></li>
+                  <li><a href="booking.html">Accomodation & Room Facillties</a></li>
                   <li><a href="gallery.html">Gallery</a></li>
-                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="fullwidth.html">Activities</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
               	</ul>
     		</div>
 
@@ -74,17 +63,29 @@
     	<div class="callbacks_container">
         	<ul class="rslides pic_slider">
              	<li>
-               		<img src="img/slider-home/pic%20(1).jpg" alt="">
-                	<div class="slider-info">
-                	<h1>Welcome to Sunshine Hotel and Resorts</h1>
-                	</div>
+               		<img src="img/slider-home/home1n.jpg" alt="">
+                	<!--<div class="slider-info">
+                		<h1></h1>
+                	</div>-->
                 </li>  
                 <li>
-               		<img src="img/slider-home/pic%20(2).jpg" alt="">
-                	<div class="slider-info">
-                	<h1>It's our way to make you feel more than home</h1>
-                	</div>
-                </li>                              
+               		<img src="img/slider-home/s1n.jpg" alt="">
+                	<!--<div class="slider-info">
+                		<h1></h1>
+                	</div>-->
+                </li>     
+                 <li>
+               		<img src="img/slider-home/s2n.jpg" alt="">
+                	<!--<div class="slider-info">
+                		<h1></h1>
+                	</div>-->
+                </li>           
+                <li>
+               		<img src="img/slider-home/beach2.jpg" alt="">
+                	<!--<div class="slider-info">
+                		<h1></h1>
+                	</div>-->
+                </li>                                
         	</ul>
     	</div>
     </div>
@@ -93,7 +94,7 @@
     <div class="clearfix"></div>
     
 	<!-- search begin -->
-   	<div id="booking">
+   	<div id="booking" style="display:none;">
     	<div class="container">
         	<div class="row">
         	<span class="span2">Booking Now:</span>
@@ -138,12 +139,12 @@
         	
 			<div class="row">
             	<div class="text-center">
-                    <h2>Favorite Rooms</h2>
+                    <h2>Rooms & Rates</h2>
                     Find your favorite room, feel more than home<br><br>
      			 </div>
                 
                 <!-- room -->
-                <div class="room span4">
+                <!--<div class="room span4">
                     <div class="btn-book-container">
                     <a href="#" class="btn-book">Book Now</a>
                     </div>
@@ -161,20 +162,20 @@
                             
                             </ul>
                     </div>
-                </div>
+                </div>-->
                 <!-- close room -->
                 
                   <!-- room -->
-                <div class="room span4">
-                    <div class="btn-book-container">
-                    <a href="#" class="btn-book">Book Now</a>
+                <div class="room span6">
+                    <div class="btn-book-container" style="display:none;">
+                    	<a href="#" class="btn-book">Book Now</a>
                     </div>
-           	    	<img data-original="img/room-2.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
-                    <h4>Elegant Room</h4>
+           	    	<img data-original="img/s1_thump.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
+                    <h4>S1 Room</h4>
                     <div class="description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 	</div>
-                    <div class="row">
+                    <div class="row" style="display:none;">
                             <ul class="room-features">
                                 <li class="span2"><i class="icon-check-sign"></i>Kingsize Bed</li>
                                 <li class="span2"><i class="icon-check-sign"></i>Mountain View</li>
@@ -187,17 +188,17 @@
 
 
               <!-- room -->
-                <div class="room span4">
-                    <div class="btn-book-container">
-                    <a href="#" class="btn-book">Book Now</a>
+                <div class="room span6">
+                    <div class="btn-book-container" style="display:none;">
+                    	<a href="#" class="btn-book">Book Now</a>
                     </div>
-           	    	<img data-original="img/room-3.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
-                    <h4>Luxury Room</h4>
+           	    	<img data-original="img/s2_thump.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
+                    <h4>S2 Room</h4>
                     <div class="description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 	</div>
                     <div class="row">
-                            <ul class="room-features">
+                            <ul class="room-features" style="display:none;">
                                 <li class="span2"><i class="icon-check-sign"></i>Kingsize Bed</li>
                                 <li class="span2"><i class="icon-check-sign"></i>Mountain View</li>
                                 <li class="span2"><i class="icon-check-sign"></i>Hotspot and TV Cable</li>
@@ -211,6 +212,39 @@
             	
          	 </div>
              
+             <hr>
+             
+             <div id="facilities">
+             	 <div class="text-center">
+	                  <h2>Facilities</h2>
+	                  Find your favorite room, feel more than home<br><br>
+	   			 </div>
+	             <div class="row">
+		           	  <div class="span3 feature">
+		              	<i class="icon-desktop icon-3x"></i><br>
+		                <h4>Modern</h4>
+		             	
+		              </div>
+		                
+		              <div class="span3 feature">
+		              	<i class="icon-calendar icon-3x"></i><br>
+		              	<h4>Responsive</h4>
+		                	
+		              </div>
+		              
+		              <div class="span3 feature">
+		              	<i class="icon-circle-arrow-right icon-3x"></i><br>
+		              	<h4>Hotel</h4>
+		                	
+		              </div>
+		              
+		              <div class="span3 feature">
+		              	<i class="icon-thumbs-up icon-3x"></i><br>
+		              	<h4>Template</h4>
+		              </div>
+	            </div>
+	         </div>
+            
              <hr>
              
              <div class="row gallery">

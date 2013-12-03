@@ -59,7 +59,8 @@ h3.title{
 }
 h2{
 	font-size:42px;
-	color:#ec6841;
+	/*color:#ec6841;*/
+	color: black;
 	letter-spacing:-2px;
 	line-height:inherit;
 	margin-top:0;
