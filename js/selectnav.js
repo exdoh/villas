@@ -94,6 +94,7 @@ window.selectnav = (function(){
 				var link = list.children[i].children[0];
 				var text = link.innerText || link.textContent;		
 				var isselected = '';
+				var s = ['logo','roomrate','facilities','gall','activities','footer'];
 		
 				if(activeclass){
 					isselected = link.className.search(activeclass) !== -1 || link.parentElement.className.search(activeclass) !== -1 ? selected : '';	
@@ -103,7 +104,7 @@ window.selectnav = (function(){
 					isselected = link.href === document.URL ? selected : '';
 				}
 				
-				html += '<option value="' + link.href + '" ' + isselected + '>' + prefix + text +'</option>';
+				html += '<option onclick="scrolltodiv(\'' + s[i] + '\')" value="' + link.href + '" ' + isselected + '>' + prefix + text +'</option>';
 		
 				if(nested){
 					var subElement = list.children[i].children[1];

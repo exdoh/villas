@@ -172,7 +172,7 @@
                     	<a href="#" class="btn-book">Book Now</a>
                     </div>
            	    	<img data-original="img/s1_thump.jpg" src="img/pic-blank-1.gif" alt="">
-                    <h4>S1 Room</h4>
+                    <h4>Villa-S1 Room</h4>
                     <div class="description">
                     The design concept of this Pool Villa is simple and elegance. 
 					Great for Family Re-Unions, friends get together or company retreat. 
@@ -197,7 +197,7 @@
                     	<a href="#" class="btn-book">Book Now</a>
                     </div>
            	    	<img data-original="img/s2_thump.jpg" src="img/pic-blank-1.gif" alt="">
-                    <h4>S2 Room</h4>
+                    <h4>Villa-S2 Room</h4>
                     <div class="description">
                     The design concept of this Pool Villa is fun and lively. 
 					Great for Family Re-Unions, friends get together or company retreat. 
@@ -400,13 +400,13 @@
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                 </div>                                
                <div class="span3">
-                	<h3>Our Address</h3>
+                	<h3>Our Contact</h3>
                     	<address>
-                                80 Gotham Street, Sydney
-                        <span><strong>Phone:</strong>(208) 222 4546</span>
-                        <span><strong>Fax:</strong>(208) 222 4647</span>
+                                Villa S 44/1 Soi Aou Ta Kieab Nhong Kae 
+                                <br>Hua Hin Prachuabkirikhan Thailand 77110
+                        <span><strong>Phone:</strong>+6681-8470102</span>
+                        <!--<span><strong>Fax:</strong>208) 222 4546</span>-->
                         <span><strong>Email:</strong><a href="mailto:contact@example.com">contact@example.com</a></span>
-                        <span><strong>Web:</strong><a href="#test">http://example.com</a></span>
                        </address>
                        
                        <div class="social-icons">
