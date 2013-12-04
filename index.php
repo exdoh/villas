@@ -402,9 +402,9 @@
                <div class="span3">
                 	<h3>Our Contact</h3>
                     	<address>
-                                Villa S 44/1 Soi Aou Ta Kieab Nhong Kae 
-                                <br>Hua Hin Prachuabkirikhan Thailand 77110
-                        <span><strong>Phone:</strong>+6681-8470102</span>
+                                Villa S 44/1 Soi Aou Ta Kieab, Nhong Kae 
+                                <br>Hua Hin, Prachuabkirikhan, Thailand 77110
+                        <span><strong>Phone:</strong>+6681-847-0102</span>
                         <!--<span><strong>Fax:</strong>208) 222 4546</span>-->
                         <span><strong>Email:</strong><a href="mailto:contact@example.com">contact@example.com</a></span>
                        </address>
