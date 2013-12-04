@@ -391,8 +391,8 @@
   		<div id="footer" class="container">
    	  		<div class="row">
                 <div class="span6 gallery">
-                	<a class="preview" href="img/map.jpg" rel="prettyPhoto" title="Your Title">
-           	     	<img data-original="img/map.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
+                	<a class="preview" href="img/map.png" rel="prettyPhoto" title="Your Title">
+           	     	<img data-original="img/minimap.png" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
                     </a>
                 </div> 
             	<div class="span3">
