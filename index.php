@@ -39,7 +39,7 @@
 	<header>
         	<div id="logo">
             	<div class="inner">
-   	    		  <a href="index.html"><img src="img/logo6Trans.png" alt=""></a>
+   	    		  <a href="index.html"><img src="img/logo7Trans.png" alt=""></a>
             	</div>
             </div>
             
@@ -82,7 +82,7 @@
                 	</div>-->
                 </li>           
                 <li>
-               		<img src="img/slider-home/beach2.jpg" alt="">
+               		<img src="img/slider-home/beach3.jpg" alt="">
                 	<!--<div class="slider-info">
                 		<h1></h1>
                 	</div>-->
@@ -262,9 +262,9 @@
    			   </div>
    			   
                <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
-                 <div class="span2">
+                 <div class="span2 row-gallery">
            	     	<a class="preview" href="img/gallery/s1/original/s1_<?php echo $count?>.jpg" rel="prettyPhoto" title="Your Title">
-           	     	<img data-original="img/gallery/s1/thumb/s1_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
+           	     	<img data-original="img/gallery/s1/thumb/s1_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" alt="">
                     </a>
                  </div>
                <?php $count++;}?>
@@ -272,9 +272,9 @@
              </div>
              <div class="row gallery">
                <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
-                 <div class="span2">
+                 <div class="span2 row-gallery">
            	     	<a class="preview" href="img/gallery/s1/original/s1_<?php echo $count?>.jpg" rel="prettyPhoto" title="Your Title">
-           	     	<img data-original="img/gallery/s1/thumb/s1_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
+           	     	<img data-original="img/gallery/s1/thumb/s1_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" alt="">
                     </a>
                  </div>
                <?php $count++;}?>
@@ -282,9 +282,9 @@
              </div>
              <div class="row gallery">
                <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
-                 <div class="span2">
+                 <div class="span2 row-gallery">
            	     	<a class="preview" href="img/gallery/s1/original/s1_<?php echo $count?>.jpg" rel="prettyPhoto" title="Your Title">
-           	     	<img data-original="img/gallery/s1/thumb/s1_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
+           	     	<img data-original="img/gallery/s1/thumb/s1_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" alt="">
                     </a>
                  </div>
                <?php $count++;}?>
@@ -292,9 +292,9 @@
              </div>
              <div class="row gallery">	   
                <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
-                 <div class="span2">
+                 <div class="span2 row-gallery">
            	     	<a class="preview" href="img/gallery/s1/original/s1_<?php echo $count?>.jpg" rel="prettyPhoto" title="Your Title">
-           	     	<img data-original="img/gallery/s1/thumb/s1_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
+           	     	<img data-original="img/gallery/s1/thumb/s1_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" alt="">
                     </a>
                  </div>
                <?php $count++;}?>
@@ -315,7 +315,7 @@
                <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
                  <div class="span2">
            	     	<a class="preview" href="img/gallery/s2/original/s2_<?php echo $count?>.jpg" rel="prettyPhoto" title="Your Title">
-           	     	<img data-original="img/gallery/s2/thumb/s2_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
+           	     	<img data-original="img/gallery/s2/thumb/s2_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" alt="">
                     </a>
                  </div>
                <?php $count++;}?>
@@ -325,7 +325,7 @@
                <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
                  <div class="span2">
            	     	<a class="preview" href="img/gallery/s2/original/s2_<?php echo $count?>.jpg" rel="prettyPhoto" title="Your Title">
-           	     	<img data-original="img/gallery/s2/thumb/s2_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
+           	     	<img data-original="img/gallery/s2/thumb/s2_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" alt="">
                     </a>
                  </div>
                <?php $count++;}?>
@@ -335,7 +335,7 @@
                <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
                  <div class="span2">
            	     	<a class="preview" href="img/gallery/s2/original/s2_<?php echo $count?>.jpg" rel="prettyPhoto" title="Your Title">
-           	     	<img data-original="img/gallery/s2/thumb/s2_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
+           	     	<img data-original="img/gallery/s2/thumb/s2_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" alt="">
                     </a>
                  </div>
                <?php $count++;}?>
@@ -345,7 +345,7 @@
                <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
                  <div class="span2">
            	     	<a class="preview" href="img/gallery/s2/original/s2_<?php echo $count?>.jpg" rel="prettyPhoto" title="Your Title">
-           	     	<img data-original="img/gallery/s2/thumb/s2_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="">
+           	     	<img data-original="img/gallery/s2/thumb/s2_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" alt="">
                     </a>
                  </div>
                <?php $count++;}?>

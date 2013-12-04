@@ -1,0 +1,4 @@
+@media only screen and (max-width: 767px) {
+	.gallery {text-align: center;}
+	.row-gallery{margin-bottom: 10px;}
+}
