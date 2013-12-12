@@ -104,7 +104,7 @@ window.selectnav = (function(){
 					isselected = link.href === document.URL ? selected : '';
 				}
 				
-				html += '<option onclick="scrolltodiv(\'' + s[i] + '\')" value="' + link.href + '" ' + isselected + '>' + prefix + text +'</option>';
+				html += '<option onselect="scrolltodiv(\'' + s[i] + '\')" value="' + link.href + '" ' + isselected + '>' + prefix + text +'</option>';
 		
 				if(nested){
 					var subElement = list.children[i].children[1];
