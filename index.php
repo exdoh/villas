@@ -447,13 +447,16 @@
 	<!-- footer close -->
     
     <script type="text/javascript">
+		 	function selectscroll() {
+			     var s = $('#selectnav1 option:selected').attr('name');
+			     scrolltodiv(s);
+			}
+		 	
 		 	function scrolltodiv (name) {
 			    $('html,body').animate({
 			    	scrollTop: $("#"+name).offset().top-20},
 			    2000);
 			}
-			
-			
 		 	
 	</script>
 </body>

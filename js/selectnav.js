@@ -104,7 +104,7 @@ window.selectnav = (function(){
 					isselected = link.href === document.URL ? selected : '';
 				}
 				
-				html += '<option onclick="scrolltodiv(\'' + s[i] + '\')" value="' + link.href + '" ' + isselected + '>' + prefix + text +'</option>';
+				html += '<option name=' + s[i] + ' value="' + link.href + '" ' + isselected + '>' + prefix + text +'</option>';
 		
 				if(nested){
 					var subElement = list.children[i].children[1];
@@ -118,7 +118,7 @@ window.selectnav = (function(){
 			if(level === 1 && label) html = '<option value="">' + label + '</option>' + html;
 		
 			// add <select> tag to the top level of the list
-			if(level === 1) html = '<select class="selectnav" id="'+id(true)+'">' + html + '</select>';
+			if(level === 1) html = '<select onchange="selectscroll()" class="selectnav" id="'+id(true)+'">' + html + '</select>';
 	
 			// go 1 level up
 			level--;
