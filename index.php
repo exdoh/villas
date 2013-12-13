@@ -177,7 +177,7 @@
                     The design concept of this Pool Villa is simple and elegance. 
 					Great for Family Re-Unions, friends get together or company retreat. 
 					4 Bed-Rooms, 4 Bath-Rooms, 1 Private Pool & Jacuzzi, 1 Kitchen,1 Open Air Living Room, 1 In-door Living-Room.  
-					Room rate: 17,000 Baht / Night
+					Room rate: 17,500 Baht / Night
                 	</div>
                     <div class="row" style="display:none;">
                             <ul class="room-features">
@@ -202,7 +202,7 @@
                     The design concept of this Pool Villa is fun and lively. 
 					Great for Family Re-Unions, friends get together or company retreat. 
 					4 Bed-Rooms, 4 Bath-Rooms, 1 Private Pool & Jacuzzi, 1 Kitchen,1 Open Air Living Room, 1 In-door Living-Room.  
-					Room rate: 17,000 Baht / Night
+					Room rate: 17,500 Baht / Night
                 	</div>
                     <div class="row">
                             <ul class="room-features" style="display:none;">
@@ -224,11 +224,11 @@
              <!--facilities-->
              <?php
              	$arr_fac_img = array("wifi","tv","hair_dryer","coffee",
-             						 "dvd","house_keeping","safe","bathroom",
-             						 "bbq","nopetnosmoking","ipod_desk","villa_pool");
+             						 "house_keeping","bathroom",
+             						 "bbq","nopetnosmoking","villa_pool");
 				$arr_fac = array("Wifi","32 LED TV","Hair dryer","Complimontar <br>Coffee Tray",
-				                 "DVD Player","Daily House Keeping","Safe","Bathroom",
-				                 "BBQ Grill","Non smoking <br>Non pet facilities","Ipod desk","Pool villa");
+				                 "Daily House Keeping","Bathroom",
+				                 "BBQ Grill","Non smoking <br>Non pet facilities","Pool villa");
              	$count = 0;
              ?>
              <div id="facilities">
@@ -238,14 +238,14 @@
 	   			 </div>
 	   	     <?php for($i = 0 ; $i < 3 ; $i++){ ?>
 	             <div class="row">
-	             <?php for($m = 0 ; $m < 4 ; $m++){ ?>
+	             <?php for($m = 0 ; $m < 4 ; $m++){ if($count < 9){?>
 		           	  <div class="span3 feature">
 		              	<i class="icon-3x"><img data-original="img/facilities/<?php echo $arr_fac_img[$count];?>.png" src="img/pic-blank-1.gif" alt=""></i>
 		              	<br>
 		                <h4><?php echo $arr_fac[$count]?></h4>
 		             	
 		              </div>
-		         <?php $count++; }?>      
+		         <?php }$count++; }?>      
 	            </div>
 	         <?php } ?>
 	         </div>
@@ -406,7 +406,7 @@
                                 <br>Hua Hin, Prachuabkirikhan, Thailand 77110
                         <span><strong>Phone:</strong>+6681-847-0102</span>
                         <!--<span><strong>Fax:</strong>208) 222 4546</span>-->
-                        <span><strong>Email:</strong><a href="mailto:contact@example.com">contact@example.com</a></span>
+                        <span><strong>Email:</strong><a href="mailto:contact@example.com">kojchanun@gmail.com</a></span>
                        </address>
                        
                        <div class="social-icons">

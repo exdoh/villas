@@ -105,7 +105,7 @@ window.selectnav = (function(){
 				}
 				
 				html += '<option name=' + s[i] + ' value="' + link.href + '" ' + isselected + '>' + prefix + text +'</option>';
-		
+
 				if(nested){
 					var subElement = list.children[i].children[1];
 					if( subElement && islist(subElement) ){
