@@ -50,7 +50,7 @@
                   <li onclick="scrolltodiv('logo')"><a href="#">HOME</a></li>
                   <li onclick="scrolltodiv('roomrate')"><a href="#">ROOM & RATES</a></li>
                   <li onclick="scrolltodiv('facilities')"><a href="#">Room Facillties</a></li>
-                  <li onclick="scrolltodiv('gall')"><a href="#">Gallery</a></li>
+                  <li onclick="scrolltodiv('gall1')"><a href="#">Gallery</a></li>
                   <li onclick="scrolltodiv('activities')"><a href="#">Activities</a></li>
                   <li onclick="scrolltodiv('footer')"><a href="#">Contact Us</a></li>
               	</ul>
@@ -255,15 +255,17 @@
              
              <!--S1 Gallery-->
              <?php $count=0;?>
-             <div id="gall" class="row gallery">
+             <div id="gall1" class="row gallery">
              	<div class="text-center">
                     <h2>Villa-S1 Gallery</h2>
                     Find your favorite room, feel more than home<br><br>
    			   </div>
-   			   
+             </div>
+             
+             <div class="row gallery">
                <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
                  <div class="span2 row-gallery">
-           	     	<a class="preview" href="img/gallery/s1/original/s1_<?php echo $count?>.jpg" rel="prettyPhoto" title="Your Title">
+           	     	<a class="preview" href="img/gallery/s1/original/s1_<?php echo $count?>.jpg" rel="prettyPhoto[gall1]" title="Your Title">
            	     	<img data-original="img/gallery/s1/thumb/s1_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" alt="">
                     </a>
                  </div>
@@ -273,7 +275,7 @@
              <div class="row gallery">
                <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
                  <div class="span2 row-gallery">
-           	     	<a class="preview" href="img/gallery/s1/original/s1_<?php echo $count?>.jpg" rel="prettyPhoto" title="Your Title">
+           	     	<a class="preview" href="img/gallery/s1/original/s1_<?php echo $count?>.jpg" rel="prettyPhoto[gall1]" title="Your Title">
            	     	<img data-original="img/gallery/s1/thumb/s1_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" alt="">
                     </a>
                  </div>
@@ -283,7 +285,7 @@
              <div class="row gallery">
                <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
                  <div class="span2 row-gallery">
-           	     	<a class="preview" href="img/gallery/s1/original/s1_<?php echo $count?>.jpg" rel="prettyPhoto" title="Your Title">
+           	     	<a class="preview" href="img/gallery/s1/original/s1_<?php echo $count?>.jpg" rel="prettyPhoto[gall1]" title="Your Title">
            	     	<img data-original="img/gallery/s1/thumb/s1_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" alt="">
                     </a>
                  </div>
@@ -293,7 +295,7 @@
              <div class="row gallery">	   
                <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
                  <div class="span2 row-gallery">
-           	     	<a class="preview" href="img/gallery/s1/original/s1_<?php echo $count?>.jpg" rel="prettyPhoto" title="Your Title">
+           	     	<a class="preview" href="img/gallery/s1/original/s1_<?php echo $count?>.jpg" rel="prettyPhoto[gall1]" title="Your Title">
            	     	<img data-original="img/gallery/s1/thumb/s1_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" alt="">
                     </a>
                  </div>
@@ -306,15 +308,17 @@
              
              <!--S2 Gallery-->
              <?php $count=0;?>
-             <div class="row gallery">
+             <div id="gall2" class="row gallery">
              	<div class="text-center">
                     <h2>Villa-S2 Gallery</h2>
                     Find your favorite room, feel more than home<br><br>
    			   </div>
-   			   
+             </div>
+             
+             <div class="row gallery">
                <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
                  <div class="span2">
-           	     	<a class="preview" href="img/gallery/s2/original/s2_<?php echo $count?>.jpg" rel="prettyPhoto" title="Your Title">
+           	     	<a class="preview" href="img/gallery/s2/original/s2_<?php echo $count?>.jpg" rel="prettyPhoto[gall2]" title="Your Title">
            	     	<img data-original="img/gallery/s2/thumb/s2_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" alt="">
                     </a>
                  </div>
@@ -324,7 +328,7 @@
              <div class="row gallery">
                <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
                  <div class="span2">
-           	     	<a class="preview" href="img/gallery/s2/original/s2_<?php echo $count?>.jpg" rel="prettyPhoto" title="Your Title">
+           	     	<a class="preview" href="img/gallery/s2/original/s2_<?php echo $count?>.jpg" rel="prettyPhoto[gall2]" title="Your Title">
            	     	<img data-original="img/gallery/s2/thumb/s2_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" alt="">
                     </a>
                  </div>
@@ -334,7 +338,7 @@
              <div class="row gallery">
                <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
                  <div class="span2">
-           	     	<a class="preview" href="img/gallery/s2/original/s2_<?php echo $count?>.jpg" rel="prettyPhoto" title="Your Title">
+           	     	<a class="preview" href="img/gallery/s2/original/s2_<?php echo $count?>.jpg" rel="prettyPhoto[gall2]" title="Your Title">
            	     	<img data-original="img/gallery/s2/thumb/s2_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" alt="">
                     </a>
                  </div>
@@ -344,7 +348,7 @@
              <div class="row gallery">	   
                <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
                  <div class="span2">
-           	     	<a class="preview" href="img/gallery/s2/original/s2_<?php echo $count?>.jpg" rel="prettyPhoto" title="Your Title">
+           	     	<a class="preview" href="img/gallery/s2/original/s2_<?php echo $count?>.jpg" rel="prettyPhoto[gall2]" title="Your Title">
            	     	<img data-original="img/gallery/s2/thumb/s2_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" alt="">
                     </a>
                  </div>
@@ -400,23 +404,23 @@
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                 --></div>                                
                <div class="span3">
-                	<!--<h3>Our Contact</h3>-->
+                	<h3>Our Contact</h3>
                     	<address>
                                 Villa S 44/1 Soi Aou Ta Kieab, Nhong Kae 
                                 <br>Hua Hin, Prachuabkirikhan, Thailand 77110
                         <span><strong>Phone:</strong>+6681-847-0102</span>
                         <!--<span><strong>Fax:</strong>208) 222 4546</span>-->
-                        <!--<span><strong>Email:</strong><a href="mailto:contact@example.com">kojchanun@gmail.com</a></span>-->
+                        <span><strong>Email:</strong><a href="mailto:contact@example.com">kojchanun@gmail.com</a></span>
                        </address>
                        
-                       <div class="social-icons">
+                       <!--<div class="social-icons">
                         	<a href="#"><img src="img/social-icons/rss.png" alt=""/></a>
-                        	<!--<a href="#"><img src="img/social-icons/facebook.png" alt=""/></a>
-                        	<a href="#"><img src="img/social-icons/twitter.png" alt=""/></a>-->
+                        	<a href="#"><img src="img/social-icons/facebook.png" alt=""/></a>
+                        	<a href="#"><img src="img/social-icons/twitter.png" alt=""/></a>
                         	<a href="#"><img src="img/social-icons/gplus.png" alt=""/></a>
-                        	<!--<a href="#"><img src="img/social-icons/youtube.png" alt=""/></a>-->
+                        	<a href="#"><img src="img/social-icons/youtube.png" alt=""/></a>
                         	<a href="#"><img src="img/social-icons/vimeo.png" alt=""/></a>
-                        </div>
+                       </div>-->
                 </div>
             </div>
         </div>

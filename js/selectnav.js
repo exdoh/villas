@@ -94,7 +94,7 @@ window.selectnav = (function(){
 				var link = list.children[i].children[0];
 				var text = link.innerText || link.textContent;		
 				var isselected = '';
-				var s = ['logo','roomrate','facilities','gall','activities','footer'];
+				var s = ['logo','roomrate','facilities','gall1','activities','footer'];
 		
 				if(activeclass){
 					isselected = link.className.search(activeclass) !== -1 || link.parentElement.className.search(activeclass) !== -1 ? selected : '';	
