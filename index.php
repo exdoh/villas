@@ -39,7 +39,7 @@
 	<header>
         	<div id="logo">
             	<div class="inner">
-   	    		  <a href="index.html"><img src="img/logo7Trans.png" alt=""></a>
+   	    		  <a href="index.html"><img src="img/LogoFinal90px.png" alt=""></a>
             	</div>
             </div>
             
@@ -64,7 +64,7 @@
     	<div class="callbacks_container">
         	<ul class="rslides pic_slider">
              	<li>
-               		<img src="img/slider-home/home1n.jpg" alt="">
+               		<img src="img/slider-home/home1n4.jpg" alt="">
                 	<!--<div class="slider-info">
                 		<h1>Hua Hin</h1>
                 	</div>-->
@@ -76,16 +76,16 @@
                 	</div>-->
                 </li>     
                  <li>
-               		<img src="img/slider-home/s2n.jpg" alt="">
+               		<img src="img/slider-home/s2n2.jpg" alt="">
                 	<!--<div class="slider-info">
                 		<h1></h1>
                 	</div>-->
                 </li>           
                 <li>
-               		<img src="img/slider-home/beach3.jpg" alt="">
-                	<!--<div class="slider-info">
-                		<h1></h1>
-                	</div>-->
+               		<img src="img/slider-home/beach4.jpg" alt="">
+                	<div class="slider-info">
+                		<h1>ห่างจากทะเล 50 เมตร</h1>
+                	</div>
                 </li>                                
         	</ul>
     	</div>
@@ -396,25 +396,25 @@
                     </a>
                 </div> 
             	<div class="span3">
-                	<h3>About Us</h3>
+                	<!--<h3>About Us</h3>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                </div>                                
+                --></div>                                
                <div class="span3">
-                	<h3>Our Contact</h3>
+                	<!--<h3>Our Contact</h3>-->
                     	<address>
                                 Villa S 44/1 Soi Aou Ta Kieab, Nhong Kae 
                                 <br>Hua Hin, Prachuabkirikhan, Thailand 77110
                         <span><strong>Phone:</strong>+6681-847-0102</span>
                         <!--<span><strong>Fax:</strong>208) 222 4546</span>-->
-                        <span><strong>Email:</strong><a href="mailto:contact@example.com">kojchanun@gmail.com</a></span>
+                        <!--<span><strong>Email:</strong><a href="mailto:contact@example.com">kojchanun@gmail.com</a></span>-->
                        </address>
                        
                        <div class="social-icons">
                         	<a href="#"><img src="img/social-icons/rss.png" alt=""/></a>
-                        	<a href="#"><img src="img/social-icons/facebook.png" alt=""/></a>
-                        	<a href="#"><img src="img/social-icons/twitter.png" alt=""/></a>
+                        	<!--<a href="#"><img src="img/social-icons/facebook.png" alt=""/></a>
+                        	<a href="#"><img src="img/social-icons/twitter.png" alt=""/></a>-->
                         	<a href="#"><img src="img/social-icons/gplus.png" alt=""/></a>
-                        	<a href="#"><img src="img/social-icons/youtube.png" alt=""/></a>
+                        	<!--<a href="#"><img src="img/social-icons/youtube.png" alt=""/></a>-->
                         	<a href="#"><img src="img/social-icons/vimeo.png" alt=""/></a>
                         </div>
                 </div>
@@ -425,7 +425,7 @@
         	<div class="container">
                 <div class="row">
                 	<div class="span6">
-                    	&copy; Copyiright 2013 - Sunshine by Aveothemes
+                    	&copy; Copyiright 2013
                     </div>
                     <div class="span6" style="display:none">
                     	<nav>
