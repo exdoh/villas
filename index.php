@@ -84,7 +84,7 @@
                 <li>
                		<img src="img/slider-home/beach4.jpg" alt="">
                 	<div class="slider-info">
-                		<h1>ห่างจากทะเล 50 เมตร</h1>
+                		<h1>Just 50 meters from the beach</h1>
                 	</div>
                 </li>                                
         	</ul>

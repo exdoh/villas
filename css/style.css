@@ -581,7 +581,7 @@ blockquote span{
 }
 .callbacks_nav.prev{ left:0;}
 .callbacks_nav.next{ right:0;}
-.slider-info h1{background:#fff; display:inline-block; padding:10px 20px 10px 20px; letter-spacing:-2px; position:relative; top:40%;}
+.slider-info h1{color: #000; display:inline-block; padding:10px 20px 10px 20px; letter-spacing:-2px; position:relative; top:40%;opacity: 0.7;}
 .slider-info .text1{background:#333; color:#fff; padding:10px 20px 10px 20px; font-size:14px;}
 
 /*-------------------------------------------------- 
