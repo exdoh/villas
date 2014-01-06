@@ -317,7 +317,7 @@
              
              <div class="row gallery">
                <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
-                 <div class="span2">
+                 <div class="span2 row-gallery">
            	     	<a class="preview" href="img/gallery/s2/original/s2_<?php echo $count?>.jpg" rel="prettyPhoto[gall2]" title="Your Title">
            	     	<img data-original="img/gallery/s2/thumb/s2_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" alt="">
                     </a>
@@ -327,7 +327,7 @@
              </div>
              <div class="row gallery">
                <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
-                 <div class="span2">
+                 <div class="span2 row-gallery">
            	     	<a class="preview" href="img/gallery/s2/original/s2_<?php echo $count?>.jpg" rel="prettyPhoto[gall2]" title="Your Title">
            	     	<img data-original="img/gallery/s2/thumb/s2_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" alt="">
                     </a>
@@ -337,7 +337,7 @@
              </div>
              <div class="row gallery">
                <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
-                 <div class="span2">
+                 <div class="span2 row-gallery">
            	     	<a class="preview" href="img/gallery/s2/original/s2_<?php echo $count?>.jpg" rel="prettyPhoto[gall2]" title="Your Title">
            	     	<img data-original="img/gallery/s2/thumb/s2_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" alt="">
                     </a>
@@ -347,7 +347,7 @@
              </div>
              <div class="row gallery">	   
                <?php for($m = 1 ; $m <= 6 ; $m++){ ?>
-                 <div class="span2">
+                 <div class="span2 row-gallery">
            	     	<a class="preview" href="img/gallery/s2/original/s2_<?php echo $count?>.jpg" rel="prettyPhoto[gall2]" title="Your Title">
            	     	<img data-original="img/gallery/s2/thumb/s2_<?php echo $count?>.jpg" src="img/pic-blank-1.gif" alt="">
                     </a>
@@ -406,7 +406,7 @@
                <div class="span3">
                 	<h3>Our Contact</h3>
                     	<address>
-                                Villa S 44/1 Soi Aou Ta Kieab, Nhong Kae 
+                                Villa S 44/1 Soi Aou Ta Kieab 5, Nhong Kae 
                                 <br>Hua Hin, Prachuabkirikhan, Thailand 77110
                         <span><strong>Phone:</strong>+6681-847-0102</span>
                         <!--<span><strong>Fax:</strong>208) 222 4546</span>-->
