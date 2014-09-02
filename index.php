@@ -177,7 +177,7 @@
                     The design concept of this Pool Villa is simple and elegance. 
 					Great for Family Re-Unions, friends get together or company retreat. 
 					4 Bed-Rooms, 4 Bath-Rooms, 1 Private Pool & Jacuzzi, 1 Kitchen,1 Open Air Living Room, 1 In-door Living-Room.  
-					Room rate: 17,500 Baht / Night
+					Room rate: 18,500 Baht / Night
                 	</div>
                     <div class="row" style="display:none;">
                             <ul class="room-features">
@@ -202,7 +202,7 @@
                     The design concept of this Pool Villa is fun and lively. 
 					Great for Family Re-Unions, friends get together or company retreat. 
 					4 Bed-Rooms, 4 Bath-Rooms, 1 Private Pool & Jacuzzi, 1 Kitchen,1 Open Air Living Room, 1 In-door Living-Room.  
-					Room rate: 17,500 Baht / Night
+					Room rate: 18,500 Baht / Night
                 	</div>
                     <div class="row">
                             <ul class="room-features" style="display:none;">
@@ -410,7 +410,8 @@
                                 <br>Hua Hin, Prachuabkirikhan, Thailand 77110
                         <span><strong>Phone:</strong>+6681-847-0102</span>
                         <!--<span><strong>Fax:</strong>208) 222 4546</span>-->
-                        <span><strong>Email:</strong><a href="mailto:contact@example.com">kojchanun@gmail.com</a></span>
+                        <span><strong>Email:</strong><a href="mailto:adulshana@gmail.com">adulshana@gmail.com</a></span>
+                        <span><strong>Line:</strong>shana2011</span>
                        </address>
                        
                        <!--<div class="social-icons">
